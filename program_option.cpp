@@ -15,9 +15,9 @@ int main(int ac,char* av[])
     // オプションの宣言
     po::options_description options1("Miku is cute");
     options1.add_options()
-	("help","Produce help message.")// $ ./mikukawaii --help
-	("miku","Miku is so cute.") // $ ./mikukawaii --miku
-	("diva,d","Miku is deva.")  // $ ./mikukawaii --diva (or -d)
+	("help","Produce help message.")// $ ./program.option --help
+	("miku","Miku is so cute.") // $ ./program_option --miku
+	("diva,d","Miku is deva.")  // $ ./program.option --diva (or -d)
 	("cuteness,c",po::value<int>(),"Set Miku's cuteness.\nPlease set value in 75-100") // $ ./mikukawaii --cuteness 100 (or -c 100)
 	;
 
