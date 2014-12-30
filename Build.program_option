@@ -1,0 +1,27 @@
+How to build:
+
+boostやらclangやらが必要ですので何とかしてください。
+
+gccでのビルドをお望みの場合はMakefile CC = g++ とかで何とか。
+
+初回は
+
+	$ make dir
+
+とかでディレクトリ作ってやってください。
+
+で、コンパイルは
+
+	$ make option
+
+実行してやりましょう。
+
+	$ ../boost_practice_bin/program.option
+
+後ろに--mikuとか-c 100とか付けるともっと色々できます。
+
+色々は
+
+	$ ../boost_practice_bin/program.option --help
+
+で。
